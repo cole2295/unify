@@ -1,0 +1,23 @@
+* {
+	direction: rtl;
+	unicode-bidi: embed; /* bidi-override */
+}
+.fa-angle-right:before {
+	content: "\f104";
+}
+.fa-angle-left:before {
+	content: "\f105";
+}
+.header-v8 .dropdown-submenu > a:after,
+.topbar-list .topbar-submenu > a:after {
+	content: "\f104";
+}
+.owl-carousel .owl-item .avatar-of-reviewer,
+.owl-carousel .owl-item .video-play-btn {
+	width: auto;
+	display: inline-block;
+}
+.style-swticher-header .theme-close {
+  left: 6px;
+  right: auto;
+}

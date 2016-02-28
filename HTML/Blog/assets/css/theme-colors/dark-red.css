@@ -1,0 +1,192 @@
+/*
+* Dark Red Color: #a10f2b;
+* Dark Red Hover Color: #b61332;
+* rgba(161,15,43,1);
+*/
+a {
+	color: #a10f2b;
+}
+a:hover {
+	color: #a10f2b;
+}
+.header-v8 .dropdown-menu {
+	border-top: solid 3px #a10f2b;
+}
+.header-v8 .dropdown-menu .active > a,
+.header-v8 .dropdown-menu li > a:hover {
+	color: #a10f2b;
+}
+.header-v8 .navbar-nav .open .dropdown-menu > li > a:hover,
+.header-v8 .navbar-nav .open .dropdown-menu > li > a:focus {
+	color: #a10f2b;
+}
+.header-v8 .navbar-nav .open .dropdown-menu > .active > a,
+.header-v8 .navbar-nav .open .dropdown-menu > .active > a:hover,
+.header-v8 .navbar-nav .open .dropdown-menu > .active > a:focus {
+	color: #a10f2b;
+}
+
+.header-v8 .navbar-nav .open .dropdown-menu > .disabled > a,
+.header-v8 .navbar-nav .open .dropdown-menu > .disabled > a:hover,
+.header-v8 .navbar-nav .open .dropdown-menu > .disabled > a:focus {
+	color: #a10f2b;
+}
+.header-v8 .navbar-nav > li > a:hover {
+	color: #a10f2b;
+}
+.header-v8 .navbar-nav > .active > a,
+.header-v8 .navbar-nav > .active > a:hover,
+.header-v8 .navbar-nav > .active > a:focus {
+	color: #a10f2b !important;
+}
+.header-v8 .mega-menu .mega-menu-fullwidth .dropdown-link-list li a:hover {
+	color: #a10f2b;
+}
+.footer-v8 .footer .column-one a:hover {
+	color: #a10f2b;
+}
+.footer-v8 .footer .tags-v4 a:hover {
+	border-color: #a10f2b;
+	background-color: #a10f2b;
+}
+.footer-v8 .footer .footer-lists li a:hover {
+	color: #a10f2b;
+}
+.footer-v8 .footer .latest-news h3 a:hover {
+	color: #a10f2b;
+}
+.footer-v8 .footer .input-group-btn .input-btn {
+	background: #a10f2b;
+}
+.footer-v8 .footer .social-icon-list li i:hover {
+	background: #a10f2b;
+	border-color: #a10f2b;
+}
+.blog-slider span.blog-slider-badge {
+	background: #a10f2b;
+}
+.blog-slider .blog-slider-title h2 a:hover {
+	color: #a10f2b;
+}
+.blog-ms-v2 .ms-thumb-frame-selected .ms-thumb h3 {
+	color: #a10f2b;
+}
+.tab-v4 .tab-heading h2 {
+	color: #a10f2b;
+}
+.title-v4 {
+	color: #a10f2b;
+}
+.tab-v4 .nav-tabs > .active > a,
+.tab-v4 .nav-tabs > .active > a:hover,
+.tab-v4 .nav-tabs > .active > a:focus {
+	color: #a10f2b;
+}
+.blog-grid h3 a:hover {
+	color: #a10f2b;
+}
+.blog-grid .blog-grid-info li a:hover {
+	color: #a10f2b;
+}
+.blog-grid a.r-more {
+	color: #a10f2b;
+}
+.blog-grid a.r-more {
+	border-bottom: 1px solid #a10f2b;
+}
+.blog-thumb .blog-thumb-desc h3 a:hover {
+	color: #a10f2b;
+}
+.blog-thumb .blog-thumb-info li a:hover {
+	color: #a10f2b;
+	text-decoration: none;
+}
+.tab-v5 .nav-tabs li.active a {
+	color: #a10f2b;
+}
+.blog-thumb-v3 h3 a:hover {
+	color: #a10f2b;
+}
+.blog-video span.category-badge {
+	background: #a10f2b;
+}
+.twitter-posts .twitter-posts-in a.link {
+	color: #a10f2b;
+}
+.blog-social-shares li a:hover {
+	color: #a10f2b;
+}
+.tab-v4 .nav-tabs > li > a:hover {
+	color: #a10f2b;
+}
+.blog-cars-heading .owl-navigation .owl-btn:focus,
+.blog-cars-heading .owl-navigation .owl-btn:hover {
+	color: #a10f2b;
+}
+.blog-cars-heading h2 {
+	color: #a10f2b;
+}
+.blog-thumb-v4 h3 a:hover {
+	color: #a10f2b;
+}
+.blog-thumb-v2 .blog-thumb-desc h3 a:hover {
+	color: #a10f2b;
+}
+.blog-thumb-v2 .blog-thumb-info li a:hover {
+	color: #a10f2b;
+}
+.breadcrumb li.active,
+.breadcrumb li a:hover {
+	color: #a10f2b;
+}
+.single-page-quote:after {
+	background: #a10f2b;
+}
+.single-page-quote p {
+	color: #a10f2b;
+}
+.source-list li a {
+	color: #a10f2b;
+}
+.blog-grid-tags li a:hover {
+	background: #a10f2b;
+}
+
+.btn-u.btn-u-default {
+	background: #a10f2b;
+}
+.btn-u.btn-u-default:hover,
+.btn-u.btn-u-default:focus,
+.btn-u.btn-u-default:active,
+.btn-u.btn-u-default.active,
+.open .dropdown-toggle.btn-u.btn-u-default {
+	background: #b61332;
+}
+.btn-u.btn-u-split-default.dropdown-toggle {
+	border-left: solid 1px #b61332;
+}
+
+.blog-thumb .blog-thumb-hover:hover:after {
+	background: rgba(161,15,43,0.9);
+}
+#topcontrol:hover {
+	background: rgba(161,15,43,0.9);
+}
+.blog-video h4 {
+	background: rgba(161,15,43,0.8);
+}
+.blog-grid .blog-grid-grad i:hover {
+	background: rgba(161,15,43,1);
+}
+.blog-thumb-v2 .blog-thumb-grad i:hover {
+	background: rgba(161,15,43,1);
+}
+
+/*added in v1.9*/
+.promo-section .tp-caption.Newspaper-Subtitle, .promo-section .Newspaper-Subtitle, .promo-section .erinyen .tp-tab-title {
+    color: #a10f2b;
+}
+
+.tp-bannertimer {
+	background: #a10f2b;
+}
