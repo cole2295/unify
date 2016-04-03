@@ -1,5 +1,27 @@
 
 --------------------------------------------------------------------------
+Version v1.9.3 - 01 April 2016
+--------------------------------------------------------------------------
+
+FIXED: Version name (typo error) in the download package
+UPDATED: Animate CSS v4.5.1
+
+--------------------------------------------------------------------------
+Version v1.9.2 - 29 March 2016
+--------------------------------------------------------------------------
+
+NEW: Courses Layout (One-Pages/Courses/index.html)
+NEW: Wedding Layout (One-Pages/Wedding/index.html)
+IMPROVEMENT: Documentation
+IMPROVEMENT: Busines Layout - promo and equal height blocks (One-Pages/Business/..)
+IMPROVEMENT: Spa Layout - vertical align texts in some blocks (One-Pages/Spa/..)
+IMPROVEMENT: Equal Height javascript codes (app.js)
+IMPROVEMENT: Header v8 for iPhones (app.js)
+FIXED: Google Maps for IE in Thematic Layouts
+FIXED: Different slips in (blocks.css)
+FIXED: Equal Height issue on Home Allure (page_home17.html)
+
+--------------------------------------------------------------------------
 Version v1.9.1 - 07 February 2016
 --------------------------------------------------------------------------
 
@@ -446,9 +468,9 @@ Version 1.4 - 06 April 2014
  - NEW: 5 Theme Color Options
  - NEW: Discover Page
  - NEW: Jobs Page
- - NEW: Jobs Inner v1 Page 
- - NEW: Jobs Inner v2 Page 
- - NEW: Jobs Inner v3 Page 
+ - NEW: Jobs Inner v1 Page
+ - NEW: Jobs Inner v2 Page
+ - NEW: Jobs Inner v3 Page
  - NEW: About Us Page
  - NEW: About Me Page
  - NEW: Responsive Corporate Email
@@ -623,7 +645,7 @@ Version 1.2 - 29 May 2013
  - IMPROVEMENT: Documentation
  - IMPROVEMENT: Paralax Slider (High Resolution)
  - IMPROVEMENT: HTML/CSS & JS code structures
- - FIXED: Some minor bug fixing 
+ - FIXED: Some minor bug fixing
 
 
 

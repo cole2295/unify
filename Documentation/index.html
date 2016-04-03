@@ -29,7 +29,7 @@
 <div class="page-wrap">
     <div class="aside" id="sidebar">
         <h1>Unify - Responsive Website Template</h1>
-        <p>Documentation v1.9.1</p>
+        <p>Documentation v1.9.3</p>
 
         <hr>
 
@@ -100,14 +100,14 @@
                         <a target="_blank" href="https://www.facebook.com/htmlstream?ref=hl">Facebook</a>
                     </li>
                     <li>Created on: 24/04/2013</li>
-                    <li>Latest Update on: 07/02/2016</li>
+                    <li>Latest Update on: 01/04/2016</li>
                 </ul>
             </div><!--/overview-->
 
             <div id="scroll_main" class="margin-bottom-70">
                 <h2>Main Structure <a href="#top">top <i class="fa fa-angle-up"></i></a></h2>
                 <hr>
-                <h3> Files Structure <span class="label label-dark">Updated v1.9.1</span></h3>
+                <h3> Files Structure <span class="label label-dark">Updated v1.9.2</span></h3>
                 <p>Unify comes with <strong>6 complete independent packages</strong>. In your download package, inside the HTML fodler you will find main <code>Unify Main (Default)</code> template and assets files, <code>E-commerce (Shop UI)</code> , <code>Blog &amp; Template</code>, <code>One Pages</code>, <code>Landing Pages</code>, and <code>Email Templates</code> packages. It also includes with PSD files. Please check <strong>README.txt</strong> file in the PSD folder to download the full version of available PSD files. The <strong>README.txt</strong> file includes the download link and password.</p><br>
                 <h4><i class="fa fa-folder fa-2x color-blue"></i> DOWNLOAD PACKAGE</h4>
                 <ul class="list-unstyled css-files">
@@ -121,6 +121,7 @@
                             <li>----<i class="fa fa-folder"></i>
                                 <span>One-Pages</span>
                                 <ul class="list-unstyled css-files css-v1">
+                                    <li>----<i class="fa fa-folder"></i> <span>assets</span></li>
                                     <li>----<i class="fa fa-folder"></i> <span>Classic</span></li>
                                     <li>----<i class="fa fa-folder"></i> <span>Agency</span></li>
                                     <li>----<i class="fa fa-folder"></i> <span>App</span></li>
@@ -130,6 +131,8 @@
                                     <li>----<i class="fa fa-folder"></i> <span>Shipping</span></li>
                                     <li>----<i class="fa fa-folder"></i> <span>Spa</span></li>
                                     <li>----<i class="fa fa-folder"></i> <span>Travel</span></li>
+                                    <li>----<i class="fa fa-folder"></i> <span>Wedding</span></li>
+                                    <li>----<i class="fa fa-folder"></i> <span>Courses</span></li>
                                     <li>---- &nbsp;<code>..</code> </li>
                                     <li>---- &nbsp;<code>..</code> </li>
                                 </ul>
@@ -2311,7 +2314,7 @@ jQuery(document).ready(function() {
     ...
 }();</code></pre>
 
-                <h3>JavaScript Plugins <span class="label label-dark">Updated v1.9</span></h3>
+                <h3>JavaScript Plugins <span class="label label-dark">Updated v1.9.2</span></h3>
                 <p>For more detailed information click any link below</p>
                 <div class="clearfix margin-bottom-20"></div>
 
@@ -3099,13 +3102,16 @@ jQuery(document).ready(function() {
                                 <h4>Set countdown</h4>
                                 <p>To change the date and time of the countdown:</p>
                                 <p>1. Navigate to <code>HTML/assets/js/pages/page_coming_soon.js</code></p>
-                                <p>2. Replace the function from line <strong>7</strong> to line <strong>9</strong> with the following function:</p>
+                                <p>2. Replace the whole function with the following function:</p>
 <pre class="line-numbers"><code class="language-javascript">
-jQuery(document).ready(function() {
-    $('#defaultCountdown').countdown({
-        until: new Date(yyyy, m-1, d, hh, mm, ss),
-    });
-});
+var PageComingSoon = function () {
+    return {
+      //Coming Soon
+      initPageComingSoon: function () {
+            $('#defaultCountdown').countdown({until: new Date(yyyy, mm-1, d, hh, mm, ss)})
+        }
+    };
+}();
     </code></pre>
                                 <div class="margin-bottom-20"></div>
 
@@ -3519,6 +3525,26 @@ jQuery(document).ready(function() {
                 <hr>
                 <p><label class="label label-danger">Important!</label> Please do not forget to backup your files before the upgrade.</p>
                 <br>
+
+                <h4><span>Version 1.9.3 – 01 April 2016</span></h4>
+                <ul class="margin-bottom-40">
+                  <li>FIXED: Version name (typo error) in the download package</li>
+                  <li>UPDATED: Animate CSS v4.5.1</li>
+                </ul>
+
+                <h4><span>Version 1.9.2 – 29 March 2016</span></h4>
+                <ul class="margin-bottom-40">
+                  <li>NEW: <strong>Courses Layout</strong> (One-Pages/Courses/index.html)</li>
+                  <li>NEW: <strong>Wedding Layout</strong> (One-Pages/Wedding/index.html)</li>
+                  <li>IMPROVEMENT: Documentation</li>
+                  <li>IMPROVEMENT: Busines Layout - promo and equal height blocks (One-Pages/Business/..)</li>
+                  <li>IMPROVEMENT: Spa Layout - vertical align texts in some blocks (One-Pages/Spa/..)</li>
+                  <li>IMPROVEMENT: Equal Height javascript codes (app.js)</li>
+                  <li>IMPROVEMENT: Header v8 for iPhones (app.js)</li>
+                  <li>FIXED: Google Maps for IE in Thematic Layouts</li>
+                  <li>FIXED: Different slips in (blocks.css)</li>
+                  <li>FIXED: Equal Height issue on Home Allure (page_home17.html)</li>
+                </ul>
 
                 <h4><span>Version 1.9.1 – 07 February 2016</span></h4>
                 <ul class="margin-bottom-40">

@@ -1,0 +1,943 @@
+/*--------------------------------------------------
+    [1. General]
+---------------------------------------------------- */
+.font-main {
+	font-family: 'Montserrat', sans-serif !important;
+}
+
+.font-secondary {
+	font-family: 'Niconne', cursive !important;
+}
+
+.promo-padding-top {
+	padding-top: 103px;
+}
+
+/* Default highlight color */
+::-moz-selection {
+  color: #fff;
+  background: #d65679;
+}
+::selection {
+  color: #fff;
+  background: #d65679;
+}
+/* General use classes */
+.no-padding {
+	padding: 0;
+}
+
+.no-side-padding {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.no-column-space [class^="col-"],
+.no-column-space [class*=" col-"] {
+  padding-left: 0px;
+  padding-right: 0px;
+  overflow: hidden;
+}
+
+/*Pace loader*/
+.pace .pace-progress {
+	background: #d65679;
+}
+
+.pace .pace-progress-inner {
+ 	box-shadow: 0 0 10px #d65679, 0 0 5px #d65679;
+}
+
+.pace .pace-activity {
+	border-top-color: #d65679;
+	border-left-color: #d65679;
+}
+
+/* --------------------------------------------------
+    [2. Header]
+---------------------------------------------------- */
+/* Giving a min height */
+@media (min-width: 992px) {
+	.wedding-header.one-page-header.navbar {
+    padding: 10px 0px;
+    transition: all 0.3s ease-in-out 0s, padding 0.3s ease-in-out 0s;
+	}
+
+	.wedding-header.one-page-header.top-nav-collapse {
+    padding: 0;
+	}
+}
+
+/* Overwriting background */
+.wedding-header.one-page-header {
+  background: #fff;
+  border-radius: 0;
+}
+
+/* Overwriting navbar brand (logo) */
+.wedding-header.one-page-header .navbar-brand {
+	text-align: center;
+	text-transform: uppercase;
+	font-size:20px ;
+	height: auto;
+	color: #222 !important;
+}
+
+.wedding-header.one-page-header .navbar-brand img {
+	margin: 0 auto 8px;
+	max-height: 45px;
+}
+
+/* Overwriting navbar menu */
+.wedding-header.one-page-header-style-2.navbar .navbar-nav {
+  float: right;
+}
+
+/* Designing the a links */
+.wedding-header.one-page-header .navbar-nav > li > a,
+.wedding-header.one-page-header .navbar-nav > li > a:focus {
+  color: #222;
+  font-size: 12px;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 31px 11px;
+}
+
+/* Removing before circles */
+.wedding-header.one-page-header .navbar-nav > li > a:before {
+	display: none;
+}
+
+.wedding-header.one-page-header .navbar-nav > li > a:hover {
+	color: #d65679;
+}
+
+.wedding-header.one-page-header .navbar-nav > .active > a,
+.wedding-header.one-page-header .navbar-nav > .active > a:hover,
+.wedding-header.one-page-header .navbar-nav > .active > a:focus {
+    z-index: 1;
+    background: transparent none repeat scroll 0% 0%;
+    color: #d65679 !important;
+}
+
+.wedding-header.one-page-header.top-nav-collapse .navbar-toggle:hover .icon-bar {
+  background: #000;
+}
+
+/* Responsive mode */
+@media (max-width: 1200px) {
+	.wedding-header.one-page-header .navbar-nav > li > a,
+	.wedding-header.one-page-header .navbar-nav > li > a:focus {
+	  padding: 30px 10px;
+	}
+}
+@media (max-width: 992px) {
+	.wedding-header.one-page-header .navbar-nav {
+		padding-bottom: 20px;
+	}
+	.wedding-header.one-page-header .navbar-nav > li > a,
+	.wedding-header.one-page-header .navbar-nav > li > a:focus {
+	  padding: 7px 0;
+	}
+}
+
+@media (max-width: 992px) and (min-width: 990px) {
+	/* Fixing the damage over 2 pixels right before the breakpoint */
+	.wedding-header.one-page-header .navbar-nav > li > a {
+		padding: 30px 5px 13px;
+	  font-size: 9px;
+	}
+}
+
+@media (max-width: 990px) {
+	/* Overwriting the toggle button */
+	.wedding-header.one-page-header .navbar-toggle {
+		margin: 24px 0 0;
+	}
+
+	.wedding-header.one-page-header .navbar-toggle .icon-bar {
+	    height: 1px;
+	    background: #000;
+	 		margin-bottom: 7px;
+	}
+
+	/* Removing margin for the navbar */
+	.wedding-header.one-page-header-style-2.navbar .navbar-nav {
+	   	margin: 0;
+	}
+}
+
+/* --------------------------------------------------
+    [3. Banner]
+---------------------------------------------------- */
+.promo-section .promo-info__title {
+  color: #fff;
+  font-size: 130px;
+  line-height: 1.2;
+  text-transform: none;
+  font-weight: normal;
+}
+
+.promo-info__title--pink {
+  color: #d65679;
+}
+
+/* Designing the banner buttons */
+.promo-info__btn {
+	font-size: 12px;
+	background: #d65679;
+	font-weight: bold;
+	padding: 25px 20px;
+	text-transform: uppercase;
+}
+
+.promo-info__btn:hover,
+.promo-info__btn:focus {
+	color: #fff;
+	background: #c84267;
+}
+
+/* Responsive mode */
+@media (max-width: 768px) {
+	.promo-info__title {
+	  margin-bottom: 80px;
+	}
+}
+
+@media (max-width: 680px) {
+	.promo-info__title {
+	  font-size: 80px;
+	}
+}
+
+/* --------------------------------------------------
+    [4. About]
+---------------------------------------------------- */
+.short-info__img {
+	width: 200px;
+	height: 200px;
+}
+
+.short-info__title {
+	font-size: 40px;
+	color: #222;
+}
+
+.short-info__subtitle {
+	font-size: 12px;
+	color: #d65779;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.short-info__text {
+	font-size: 14px;
+	line-height: 1.4;
+	color: #a7a7a7;
+	margin: 0;
+}
+
+.short-info__link .icon-custom {
+	background: #f1f1f1;
+	color: #cecece;
+	border: none;
+}
+
+.short-info__link:hover .icon-custom {
+	background: #d65779;
+	color: #fff;
+}
+
+/* Counters */
+.counters__counter--addon,
+.counters__counter,
+.counters__title {
+  color: #fff;
+}
+
+.counters__line-icon--mod {
+  color: #f8aabf;
+}
+
+.counters__title {
+	text-transform: uppercase;
+	font-weight: bolder;
+	font-size: 11px;
+	margin-top: -5px;
+}
+
+.counters__counter {
+	font-size: 36px;
+}
+
+.counters__text {
+	font-size: 14px;
+	color: #f8aabf;
+}
+
+@media (max-width: 992px){
+	.counters__text {
+		max-width: 50%;
+		margin: 0 auto;
+	}
+}
+
+/* --------------------------------------------------
+    [5. Presentation]
+---------------------------------------------------- */
+/* Designing presentation section */
+.our-presentation {
+	background: url(../img-temp/presentation.jpg);
+	background-size: cover;
+	background-position: center center;
+	position: relative;
+	z-index: 1;
+}
+
+.our-presentation:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.4);
+	z-index: -1;
+}
+
+.our-presentation .heading-v12__block-name,
+.our-presentation .heading-v12__block-text {
+	color: #fff;
+}
+
+.our-presentation .heading-v12__block-text {
+	max-width: 60%;
+}
+
+/* Designing the play button */
+.btn-u--btn-play {
+	background: #d65679;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 20px 25px 20px 75px;
+	position: relative;
+	text-transform: uppercase;
+}
+.btn-u--btn-play__icon {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 60px;
+	height: 100%;
+	background: #c84267;
+	font-size: 25px;
+	line-height: 58px;
+	color: #f8aabf;
+	transition: all 0.3s;
+}
+.btn-u--btn-play:hover,
+.btn-u--btn-play:focus {
+	background:#d65679;
+}
+.btn-u--btn-play:hover .btn-u--btn-play__icon,
+.btn-u--btn-play:focus .btn-u--btn-play__icon{
+	width: 70px;
+	transition: all 0.3s;
+}
+
+/* --------------------------------------------------
+    [6. Gallery]
+---------------------------------------------------- */
+/*Portfolio*/
+.gallery .cbp-caption-fadeIn .cbp-caption-activeWrap {
+  padding: 15px;
+  background: transparent;
+}
+
+.gallery .cbp-caption-fadeIn .cbp-l-caption-body {
+	background-color: #d65679;
+  transition: opacity 1s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+  text-align: center;
+}
+
+.gallery .cbp-l-caption-title {
+  font-size: 24px;
+  margin-bottom: 25px;
+}
+
+.gallery .cbp-caption-fadeIn .cbp-l-caption-body p {
+	color: #f8aabf;
+	font-size: 14px;
+	max-width: 78%;
+	margin: 0 auto;
+	line-height: 1.4;
+}
+
+/* Owl Controls */
+.gallery .owl-theme .owl-controls .owl-buttons div {
+  padding: 17px 20px;
+  color: #cecece;
+  background: #f1f1f1;
+  font-size: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.gallery .owl-theme .owl-controls .owl-buttons div:hover,
+.gallery .owl-theme .owl-controls .owl-buttons div:focus {
+  background: #d65779;
+	color: #fff;
+}
+
+.gallery .owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+}
+
+.gallery .owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 45%;
+  top: 45%;
+}
+
+.gallery .owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 45%;
+  top: 45%;
+}
+
+/* Responsive mode */
+@media (max-width:610px) {
+	.gallery .owl-theme .owl-controls .owl-buttons .owl-prev {
+	  left: 0;
+	  top: 35%;
+	}
+
+	.gallery .owl-theme .owl-controls .owl-buttons .owl-next{
+	  right: 0;
+	  top: 35%;
+	}
+}
+
+/* --------------------------------------------------
+    [7. Services]
+---------------------------------------------------- */
+.services .heading-v12__block-name,
+.services .heading-v12__block-list .fa {
+	color: #fff;
+}
+
+.services .heading-v12__block-text {
+	max-width: 60%;
+	color: #f8aabf;
+}
+
+.service__parent {
+	text-align: center;
+	background: #fff;
+	padding: 20px 15px 40px;
+	transition: all 0.5s;
+}
+
+.service__child--top__img {
+	max-height: 295px;
+}
+@media (min-width: 992px){
+	.service__child--top {
+		border: 10px solid #fff;
+		box-shadow: 2px 2px 2px #f4f4f4;
+	}
+}
+
+@media (max-width: 992px){
+	.service__child--top__img {
+		width: auto;
+		height: auto;
+		margin: 0 auto;
+	}
+}
+
+@media (max-width: 768px){
+	.service__parent {
+		max-width: 300px;
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+.service__child--btm__title {
+	font-size: 30px;
+	color: #222;
+	line-height: 1.5;
+}
+
+.service__child--btm__text {
+	font-size: 14px;
+	color: #b3b3b3;
+	line-height: 1.4;
+	max-width: 80%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.btn-u--service,
+.btn-u--service:focus{
+	padding: 15px 15px;
+	font-size: 12px;
+	background: #d65679;
+	max-width: 110px;
+	max-height: 55px;
+	font-weight: bold;
+}
+
+.service__parent:hover {
+	background: transparent;
+	transition: all 0.3s ease;
+}
+.service__parent:hover .service__child--top {
+	box-shadow: none;
+}
+.service__parent:hover .service__child--btm__title {
+	color: #fff;
+}
+.service__parent:hover .service__child--btm__text {
+	color: #f8aabf;
+}
+.service__parent:hover .btn-u--service {
+	background: #fff;
+	color: #d65679;
+}
+
+/* --------------------------------------------------
+    [8. Testimonials]
+---------------------------------------------------- */
+.testimonials {
+	position: relative;
+	margin-bottom: 0;
+}
+.testimonials:before {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,0.5);
+}
+
+.testimonial {
+	background: #fff;
+	max-width: 600px;
+	margin: 0 auto;
+}
+
+.testimonial__img {
+	max-height: 315px;
+}
+
+.testimonial__btm {
+	padding: 30px 50px 40px;
+}
+
+.testimonial__title {
+	font-size: 30px;
+	color: #222;
+	line-height: 1.5;
+}
+
+.testimonial__subtitle {
+	font-size: 12px;
+	color: #d65779;
+	text-transform: uppercase;
+	font-weight: bold;
+}
+
+.testimonial__text {
+	font-size: 14px;
+	color: #b3b3b3;
+	line-height: 1.4;
+}
+
+.btn-u--testimonial {
+	padding: 15px 15px;
+	font-size: 12px;
+	background: #d65679;
+	max-width: 130px;
+	max-height: 55px;
+	font-weight: bold;
+}
+.btn-u--testimonial:hover {
+	background: #c84267;
+}
+
+/* Owl Controls */
+.testimonials .owl-theme .owl-controls .owl-buttons div {
+  padding: 17px 20px;
+  color: #fff;
+  background: rgba(255,255,255,0.2);
+  font-size: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.testimonials .owl-theme .owl-controls .owl-buttons div:hover,
+.testimonials .owl-theme .owl-controls .owl-buttons div:focus {
+  background: rgba(255,255,255,0.4);
+	color: #fff;
+}
+
+.testimonials .owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 45%;
+}
+
+.testimonials .owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+
+}
+
+.testimonials .owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 0;
+}
+
+/* Responsive mode */
+@media (max-width:738px) {
+	.testimonials .owl-theme .owl-controls .owl-buttons div {
+  	top: 105%;
+	}
+
+	.testimonials .owl-theme .owl-controls .owl-buttons .owl-prev {
+	  left: 20%;
+
+	}
+	.testimonials .owl-theme .owl-controls .owl-buttons .owl-next{
+	  right: 20%;
+	}
+}
+
+/* --------------------------------------------------
+    [9. Offers]
+---------------------------------------------------- */
+.offer {
+	border: 1px solid #f5f5f5;
+	background: #fcfcfc;
+}
+
+.offer__img {
+	height: 190px;
+	width: 100%;
+}
+
+.offer__top {
+	background: #d65679;
+	padding:20px;
+}
+
+.offer__top--title {
+	font-size: 30px;
+	color: #fff;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.offer__top--text {
+	font-size: 14px;
+	color: #f8aabf;
+	line-height: 1.5;
+	margin: 0;
+}
+
+.offer__btm--text {
+	font-size: 14px;
+	color: #b3b3b3;
+}
+
+.offer__btm--price {
+	font-weight: bold;
+	font-size: 24px;
+	color: #d65679;
+}
+
+.btn-u--offer {
+	padding: 15px 15px;
+	font-size: 12px;
+	background: #d65679;
+	max-width: 130px;
+	max-height: 55px;
+	font-weight: bold;
+}
+.btn-u--offer:hover {
+	background: #c84267;
+}
+
+@media (max-width: 768px){
+	.offer {
+		margin-right: auto;
+		margin-left: auto;
+		max-width: 400px;
+	}
+}
+
+/* --------------------------------------------------
+    [10. News]
+---------------------------------------------------- */
+.post {
+	max-width: 270px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+.post__img {
+	max-height: 200px;
+}
+
+.post__child {
+	padding: 30px 25px;
+}
+
+.post__child--subtitle {
+	font-size: 10px;
+	color: #b3b3b3;
+}
+
+.post__child--subtitle--pink {
+	color: #d65679;
+}
+
+.post__child--title {
+	color: #222;
+	font-size: 12px;
+	font-weight: bold;
+	text-transform: uppercase;
+	line-height: 1.5;
+}
+
+.post__child--text {
+	color: #b3b3b3;
+}
+
+/* Owl Controls */
+.news .owl-theme .owl-controls .owl-buttons div {
+  padding: 17px 20px;
+  color: #cecece;
+  background: #f1f1f1;
+  font-size: 10px;
+  border-radius: 50%;
+  cursor: pointer;
+  width: 50px;
+  height: 50px;
+}
+
+.news .owl-theme .owl-controls .owl-buttons div:hover {
+  color: #cecece;
+  background: #ececec;
+}
+
+.news .owl-theme .owl-controls .owl-buttons div {
+  position: absolute;
+  top: 105%;
+}
+
+.news .owl-theme .owl-controls .owl-buttons .owl-prev {
+  left: 0;
+
+}
+
+.news .owl-theme .owl-controls .owl-buttons .owl-next{
+  right: 0;
+}
+
+.btn-u--post {
+	background: #d65679;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+.btn-u--post:hover {
+	background: #c84267;
+}
+
+
+/* --------------------------------------------------
+    [11. Booking Form]
+---------------------------------------------------- */
+.booking__form-control {
+	background: #f9f9f9;
+	padding: 0 25px;
+	height: 45px;
+	border: none;
+ -moz-box-shadow:    inset 2px 2px 2px #efefef;
+ -webkit-box-shadow: inset 2px 2px 2px #efefef;
+ 	box-shadow:        inset 2px 2px 2px #efefef;
+ 	position: relative;
+}
+
+.booking__fa {
+	color: #d65679;
+	position: absolute;
+	right: 35px;
+	top: 17px;
+}
+
+/* Form placeholder for different browsers */
+.booking__form-control::-webkit-input-placeholder {
+  color: #a7a7a7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+
+}
+
+.booking__form-control::-moz-placeholder {
+  color: #a7a7a7;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+}
+
+.btn-u--booking {
+	background: #d65679;
+	color: #fff;
+	font-size: 11px;
+	font-weight: bold;
+	padding: 20px 30px;
+	text-transform: uppercase;
+}
+.btn-u--booking:hover,
+.btn-u--booking:focus {
+	background: #c84267;
+	color: #fff;
+}
+
+.ui-datepicker-calendar a:hover {
+  background: inherit;
+  border: none;
+  color: #d65679;
+  text-decoration: none;
+}
+
+/* --------------------------------------------------
+    [12. Contact/Footer]
+---------------------------------------------------- */
+.contact__map {
+	min-height: 600px;
+}
+
+.contact__right {
+	background: url(../img-temp/contact.jpg) no-repeat;
+	background-size: cover;
+}
+
+.contact__right--list {
+	background: #d65679;
+	opacity: 0.8;
+	max-height: 600px;
+}
+
+.contact__right--list .heading-v12__block-name,
+.contact__right--list .heading-v12__block-list .fa {
+	color: #fff;
+}
+
+.contact__right--list .first-item {
+	font-size: 11px;
+	text-transform: uppercase;
+	color: #f8aabf;
+	padding: 5px 0;
+}
+
+.contact__right--list .second-item {
+	color: #fff;
+	font-weight: bold;
+}
+
+@media (min-width: 992px) {
+	.insta {
+		max-height: 200px;
+	}
+}
+
+.insta__info {
+	background: #d65779;
+	position: relative;
+	z-index: -1;
+}
+
+.insta__info--middle {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  background: rgba(214,87,121,0.9);
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: table;
+}
+.insta__info--middle-inner {
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.insta__info__top {
+	color: #f8aabf;
+	font-size: 16px;
+}
+
+.insta__info__bott {
+	color: #fff;
+	font-size: 24px;
+}
+
+@media (max-width: 540px) {
+	.insta__info__top {
+		font-size: 14px;
+	}
+	.insta__info__bott {
+		color: #fff;
+		font-size: 18px;
+	}
+}
+@media (max-width: 430px) {
+	.insta__info__top {
+		font-size: 11px;
+	}
+	.insta__info__bott {
+		color: #fff;
+		font-size: 16px;
+	}
+}
+
+.insta__img {
+	width: 100%;
+	height: 100%;
+}
+
+.subfooter__logo {
+	text-transform: uppercase;
+	font-size:20px;
+	color: #222;
+	font-weight: bold;
+}
+
+.subfooter__logo__img {
+	margin: 0 auto;
+}
+.subfooter__logo:hover {
+	text-decoration: none;
+}
+
+.subfooter__link .icon-custom {
+	background: #f1f1f1;
+	color: #cecece;
+	border: none;
+}
+.subfooter__link:hover .icon-custom {
+	background: #d65779;
+	color: #fff;
+}
+
+.subfooter__copyright {
+	font-size: 12px;
+}
+
+.subfooter__copyright--pink {
+	color: #d65679;
+}
+

@@ -2572,3 +2572,30 @@ img.img-center,
 		-webkit-transform: translateY(36px);
 	}
 }
+
+.equal-height-columns-v3 {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.equal-height-column-v3,
+.equal-height-column-v3--middle {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-flex-align: top;
+	-ms-flex-align: top;
+	-webkit-align-items: top;
+	align-items: top;
+}
+.equal-height-column-v3--middle {
+	-webkit-flex-align: center;
+	-ms-flex-align: center;
+	-webkit-align-items: center;
+	align-items: center;
+}

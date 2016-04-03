@@ -1,7 +1,7 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
- * Version: 1.9
+ * Version: 1.9.2
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
@@ -2982,4 +2982,9 @@ li:first-child {
 	color: #fff;
 	background: #18ba9b;
 	transition: all 0.3s ease-in-out;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
 }

@@ -558,11 +558,11 @@ body.dark .header-v6 .shopping-cart-open span.shc-total {
 
 	/*Navbar Brand*/
 	body.dark.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.default-logo {
-		display: inherit;
+		display: none;
 	}
 	/*fixed in v1.9*/
 	body.dark.header-fixed .header-v6.header-fixed-shrink .navbar-brand img.shrink-logo {
-		display: none;
+		display: inherit;
 	}
 
 	/*Navbar*/

@@ -1,10 +1,8 @@
 var Owl2Carouselv4 = function () {
-
 	return {
-
 		// Owl Carousel v4
 		initOwl2Carouselv4: function () {
-			$('.owl2-carousel-v4').owlCarousel({
+			jQuery('.owl2-carousel-v4').owlCarousel({
 				loop: true,
 				autoplay: true,
 				autoplayTimeout: 10000,
@@ -23,10 +21,8 @@ var Owl2Carouselv4 = function () {
             items: 4,
 	        }
 		    },
-		    rtl: true
+		    rtl: true,
 			})
 		}
-
 	};
-
 }();

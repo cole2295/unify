@@ -1,7 +1,7 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
- * Version: 1.9
+ * Version: 1.9.2
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
@@ -784,4 +784,14 @@ a:hover {
 ------------------------------------*/
 .padding-top-60 {
   padding-top: 60px;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
+}
+
+/*IE Google map fix*/
+#map {
+  width: 100%;
 }

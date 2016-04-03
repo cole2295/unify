@@ -1,6 +1,6 @@
 /*
 * Template Name: Unify - Responsive Bootstrap Template
-* Version: 1.9
+* Version: 1.9.2
 * Author: @htmlstream
 * Website: http://htmlstream.com
  */
@@ -778,4 +778,9 @@ a:hover {
 ------------------------------------ */
 .padding-top-60 {
   padding-top: 60px;
+}
+
+/*IE Google map fix*/
+#map {
+  width: 100%;
 }

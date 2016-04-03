@@ -21,6 +21,9 @@ h1, h2, h3, h4, h5, h6 {
 /* --------------------------------------------------
 	[#. Promo]
 ----------------------------------------------------  */
+.fullscreen-static-image {
+	padding: 200px 0;
+}
 .promo-block--cover {
 	position: relative;
 }
@@ -42,6 +45,8 @@ h1, h2, h3, h4, h5, h6 {
 	letter-spacing: 3px;
 	position: relative;
 	background: rgba(20,17,44,.9);
+/* 	opacity: 0;
+	transition: all 0.3s ease-in-out; */
 }
 .promo-block__item:before {
 	position: absolute;
@@ -62,6 +67,8 @@ h1, h2, h3, h4, h5, h6 {
 	font-size: 35px;
 	letter-spacing: 5px;
 	text-transform: uppercase;
+	color: #fff;
+	line-height: 1.42857;
 }
 
 .promo-block__item-text1 {
@@ -72,11 +79,15 @@ h1, h2, h3, h4, h5, h6 {
 	[. Owl 2 Carousel v1 (Dot Navigation)]
 ----------------------------------------------------  */
 /* Owl Dots  */
-.owl2-carousel-v1-dots .owl-dots {
+.owl2-carousel-v1 img {
+	display: block;
+	width: 100%;
+	height: auto;
+}
+.owl2-carousel-v1 .owl-dots {
 	text-align: center;
 }
-
-.owl2-carousel-v1-dots .owl-dot {
+.owl2-carousel-v1 .owl-dot {
 	width: 5px;
 	height: 5px;
 	margin: 0 5px;
@@ -85,8 +96,7 @@ h1, h2, h3, h4, h5, h6 {
 	display: inline-block;
 	transition: all .4s ease-in-out;
 }
-
-.owl2-carousel-v1-dots .owl-dot.active {
+.owl2-carousel-v1 .owl-dot.active {
 	background: #3949a0;
 }
 

@@ -1,6 +1,6 @@
 /*
 * Template Name: Unify - Responsive Bootstrap Template
-* Version: 1.9
+* Version: 1.9.2
 * Author: @htmlstream
 * Website: http://htmlstream.com
 */

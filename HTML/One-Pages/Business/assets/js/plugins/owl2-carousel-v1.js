@@ -1,16 +1,17 @@
 var Owl2Carouselv1 = function () {
-
 	return {
-
 		// Owl Carousel v1
 		initOwl2Carouselv1: function () {
-			$('.owl2-carousel-v1').owlCarousel({
-				items: 1,
-				margin: 0,
+			jQuery('.owl2-carousel-v1').owlCarousel( {
 				loop: true,
-			})
+				margin: 0,
+        responsive: {
+          0: {
+            items: 1
+          },
+        },
+        nav: false,
+			});
 		}
-
 	};
-
 }();

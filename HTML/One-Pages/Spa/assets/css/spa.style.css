@@ -1,6 +1,6 @@
 /*
 * Template Name: Unify - Responsive Bootstrap Template
-* Version: 1.9
+* Version: 1.9.2
 * Author: @htmlstream
 * Website: http://htmlstream.com
 */
@@ -404,8 +404,15 @@ p, li a {
 }
 
 /* Text */
+.about-text-wrapper {
+  display: table;
+  width: 100%;
+}
 .about-text {
-	padding: 0 50px;
+  display: table-cell;
+  padding: 0 50px;
+  text-align: center;
+  vertical-align: middle;
 }
 
 /* Carousel controls */

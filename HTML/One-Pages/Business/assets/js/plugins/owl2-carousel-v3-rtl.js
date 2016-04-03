@@ -2,7 +2,7 @@ var Owl2Carouselv3 = function () {
 	return {
 		// Owl Carousel v3
 		initOwl2Carouselv3: function () {
-			$('.owl2-carousel-v3').owlCarousel({
+			jQuery('.owl2-carousel-v3').owlCarousel({
 				margin: 20,
 				loop: true,
 				responsiveClass: true,
@@ -23,7 +23,7 @@ var Owl2Carouselv3 = function () {
             items: 6,
 	        }
 		    },
-		    rtl: true
+		    rtl: true,
 			})
 		}
 	};

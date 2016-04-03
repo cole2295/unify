@@ -73,11 +73,13 @@ var App = function() {
 				});
 			});
 		}
-    $('.equal-height-columns-v2').ready(function() {
+		$('.equal-height-columns-v2').ready(function() {
       EqualHeightColumns__Images();
-      setTimeout(EqualHeightColumns__Images, 1);
-			setTimeout(handleValignMiddle, 1);
-    });
+				$('.owl2-carousel-v1').ready(function() {
+		      EqualHeightColumns__Images();
+		      handleValignMiddle();
+				});
+		});
 		$(window).resize(function() {
 			EqualHeightColumns__Images();
 		});

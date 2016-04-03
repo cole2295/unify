@@ -1,7 +1,7 @@
 /*
  * Template Name: Unify - Responsive Bootstrap Template
  * Description: Business, Corporate, Portfolio, E-commerce, Blog and One Page Template.
- * Version: 1.9
+ * Version: 1.9.2
  * Author: @htmlstream
  * Website: http://htmlstream.com
 */
@@ -1458,4 +1458,9 @@ img.blog-grid-img-v1 {
 .promo-section .Newspaper-Subtitle,
 .promo-section .erinyen .tp-tab-title{
 	color: #27d7e7;
+}
+
+/*Hiding arrows for select field in IE*/
+select::-ms-expand {
+  display: none;
 }
