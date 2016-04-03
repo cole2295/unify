@@ -1,0 +1,20 @@
+* {
+  direction: rtl;
+  unicode-bidi: embed; /* bidi-override */
+}
+
+/* Arrows */
+.fa-angle-left:before {
+  content: "\f105";
+}
+.fa-angle-right:before {
+  content: "\f104";
+}
+.our-tours .owl-next:after,
+.our-service-section .owl-next:after {
+  content: "\f104";
+}
+.our-tours .owl-prev:after,
+.our-service-section .owl-prev:after {
+  content: "\f105";
+}

@@ -1,0 +1,21 @@
+* {
+  direction: rtl;
+  unicode-bidi: embed; /* bidi-override */
+}
+
+/* Arrows */
+.fa-angle-left:before {
+  content: "\f105";
+}
+.fa-angle-right:before {
+  content: "\f104";
+}
+.fa-chevron-left:before {
+  content: "\f054";
+}
+.fa-chevron-right:before {
+  content: "\f053";
+}
+.cbp-popup-wrap {
+	overflow: hidden;
+}

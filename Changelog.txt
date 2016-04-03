@@ -1,5 +1,38 @@
 
 --------------------------------------------------------------------------
+Version v1.9.1 - 07 February 2016
+--------------------------------------------------------------------------
+
+- NEW: Business Layout (One-Pages/Business/index.html)
+- NEW: Wealth Landing Page (Landing-Pages/Wealth/index.html)
+- NEW: Consulting Landing Page (One-Pages/Consulting/index.html)
+- NEW: Login and Registration Page (page_login_and_registration.html)
+- NEW: Login Page 2 (page_login2.html)
+- NEW: Registration Page 2 (page_registration2.html)
+- NEW: 404 Error Page 4 (page_404_error4.html)
+- NEW: 404 Error Page 5 (page_404_error5.html)
+- NEW: 404 Error Page 6 (page_404_error6.html)
+- NEW: Coming Soon Page v2 (page_coming_soon2.html)
+- NEW: Coming Soon Page v3 (page_coming_soon3.html)
+- NEW: Coming Soon Page v4 (page_coming_soon4.html)
+- NEW: Coming Soon Page v5 (page_coming_soon5.html)
+- NEW: Coming Soon Page v6 (page_coming_soon6.html)
+- NEW: RTL Business
+- NEW: RTL Agency
+- NEW: RTL Travel
+- NEW: RTL Lawyer
+- NEW: RTL Architecture
+- NEW: RTL Mobile App
+- NEW: RTL Spa
+- NEW: RTL Shipping
+- IMPROVEMENT: Older version of Coming Soon, 404 Error pages pages
+- IMPROVEMENT: Equal Height codes in app.js
+- UPDATED: Layer Slider v5.6.0
+- UPDATED: Cube Portfolio v3.5.1
+- FIXED: Links for Breadcrumb options (blocks.css)
+- FIXED: Multiple Progressbar issue (app.css)
+
+--------------------------------------------------------------------------
 Version v1.9 - 31 December 2015
 --------------------------------------------------------------------------
 

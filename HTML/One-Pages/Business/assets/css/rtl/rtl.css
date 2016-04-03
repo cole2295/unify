@@ -1,0 +1,18 @@
+* {
+  direction: rtl;
+  unicode-bidi: embed; /* bidi-override */
+}
+
+/* Arrows */
+.fa-angle-left:before {
+  content: "\f105";
+}
+.fa-angle-right:before {
+  content: "\f104";
+}
+.owl2-carousel-v2 .owl-next:after {
+  content: "\f104";
+}
+.owl2-carousel-v2 .owl-prev:after {
+  content: "\f105";
+}
